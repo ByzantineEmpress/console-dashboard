@@ -1,5 +1,5 @@
 import React from 'react'
-import { Search, Filter, Star, FileText, MessageSquare, Trash2, ArrowRight, Home as HomeIcon, LayoutDashboard as DashboardIcon, Gamepad2 } from 'lucide-react'
+import { Search, Filter, Star, MessageSquare, Trash2, ArrowRight, Home as HomeIcon, LayoutDashboard as DashboardIcon, Gamepad2 } from 'lucide-react'
 import EntryCard from '../components/EntryCard'
 import { useConfig } from '../hooks/useConfig'
 

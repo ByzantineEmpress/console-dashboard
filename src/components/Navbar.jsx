@@ -1,4 +1,4 @@
-import { Search, Settings as SettingsIcon, Home } from 'lucide-react'
+import { Search, Settings as IconSettings, Home } from 'lucide-react'
 
 function Navbar({ activeRoute, setActiveRoute }) {
   return (

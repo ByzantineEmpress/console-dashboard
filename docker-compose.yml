@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    volumes:
+      # Optional: mount local notes/settings for persistence
+      # - ./data:/usr/share/nginx/html/data
+    # Environment variables (if needed later)
+    environment:
+      - NODE_ENV=production

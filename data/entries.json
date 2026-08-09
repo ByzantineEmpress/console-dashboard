@@ -1,0 +1,78 @@
+{
+  "entries": [
+    {
+      "id": "drift-guard",
+      "name": "Drift Guard",
+      "category": "mod_site",
+      "type": "web",
+      "url": "https://driftguard.com",
+      "localPath": null,
+      "description": "Drift Guard - Repair database files and remove hacks from game files",
+      "pinned": false,
+      "notes": "",
+      "icon": "shield",
+      "tags": ["repair", "hack-removal", "database"]
+    },
+    {
+      "id": "console-mods",
+      "name": "Console Mods",
+      "category": "mod_site",
+      "type": "web",
+      "url": "https://www.consolemods.com",
+      "localPath": null,
+      "description": "Console Mods - Largest mod repository for all game consoles",
+      "pinned": false,
+      "notes": "",
+      "icon": "gamepad",
+      "tags": ["modding", "repository"]
+    },
+    {
+      "id": "fatxplorer",
+      "name": "FatXplorer",
+      "category": "tool",
+      "type": "local",
+      "localPath": null,
+      "description": "FatXplorer - Browse and edit game saves in .fat files (PS5/XB/PC)",
+      "pinned": false,
+      "notes": "",
+      "icon": "folder",
+      "tags": ["saves", "browser"]
+    },
+    {
+      "id": "jrunner",
+      "name": "J-Runner (JR-Cache)",
+      "category": "tool",
+      "type": "local",
+      "localPath": null,
+      "description": "J-Runner - Extract and pack JArc/JZip archives used by game consoles",
+      "pinned": false,
+      "notes": "",
+      "icon": "zip",
+      "tags": ["archive", "extract", "pack"]
+    },
+    {
+      "id": "zadig",
+      "name": "Zadig",
+      "category": "utility",
+      "type": "local",
+      "localPath": null,
+      "description": "Zadig - Simple USB device manager, driver installer, and firmware flasher",
+      "pinned": false,
+      "notes": "",
+      "icon": "plug",
+      "tags": ["usb", "drivers"]
+    },
+    {
+      "id": "ftp-client",
+      "name": "FTP Client",
+      "category": "network",
+      "type": "local",
+      "localPath": null,
+      "description": "FTP Client - Connect to your game console via FTP for file transfer",
+      "pinned": false,
+      "notes": "",
+      "icon": "network",
+      "tags": ["transfer", "console"]
+    }
+  ]
+}
