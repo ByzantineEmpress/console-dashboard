@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-import { Star, FolderOpen, Settings as IconSettings, Shield, Gamepad2, Terminal, Network, Download, Upload, Mail, MessageSquare, ExternalLink, Trash2 } from 'lucide-react'
+import { Star, FolderOpen, Settings as IconSettings, Shield, Gamepad2, Network, Download, Upload, Mail, MessageSquare, ExternalLink, Trash2, Plug, Package } from 'lucide-react'
 import { useConfig } from '../hooks/useConfig'
 
 const ICON_MAP = {
-  shield: 'Shield', gamepad2: 'Gamepad2', folder: 'FolderOpen',
+  shield: 'Shield', gamepad: 'Gamepad2', folder: 'FolderOpen',
   settings: 'Settings', terminal: 'Terminal', network: 'Network',
   download: 'Download', upload: 'Upload', mail: 'Mail', message: 'MessageSquare',
-  external: 'ExternalLink', trash: 'Trash2', home: 'Home', dashboard: 'LayoutDashboard'
+  external: 'ExternalLink', trash: 'Trash2', home: 'Home', dashboard: 'LayoutDashboard',
+  zip: 'Package', plug: 'Plug',
 }
 
 function EntryCard({ entry }) {
@@ -17,7 +18,7 @@ function EntryCard({ entry }) {
   const icon = ICON_MAP[entry.icon]
   const IconComp = {
     Shield, Gamepad2, FolderOpen, Settings, Terminal, Network,
-    Download, Upload, Mail, MessageSquare, ExternalLink, Trash2
+    Download, Upload, Mail, MessageSquare, ExternalLink, Trash2, Plug, Package
   }[icon]
 
   return (
