@@ -1,5 +1,12 @@
 FROM nginx:alpine
-COPY dist /usr/share/nginx/html
+
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
+
 COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+COPY dist /usr/share/nginx/html
+
 EXPOSE 8080
-CMD ["nginx", "-g", "daemon off;"]
+
+ENTRYPOINT ["/start.sh"]
