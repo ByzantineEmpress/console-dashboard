@@ -6,6 +6,7 @@ RUN chmod +x /start.sh
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY dist /usr/share/nginx/html
+COPY data /usr/share/nginx/html/data
 
 EXPOSE 8080
 
