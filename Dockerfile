@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginxinc/nginx-unprivileged:alpine
 
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
@@ -10,4 +10,5 @@ COPY data /usr/share/nginx/html/data
 
 EXPOSE 8080
 
+USER nginx
 ENTRYPOINT ["/start.sh"]
